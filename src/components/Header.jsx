@@ -9,7 +9,7 @@ export default function Header() {
 
     return (
         <header className="w-full bg-white border-b border-gray-200">
-            <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-full mx-auto px-4 sm:px-8 lg:px-12">
                 <div className="h-[72px] flex items-center justify-between gap-[10px]">
 
                     <div className="flex items-center gap-4 md:gap-6 xl:gap-10 min-w-0 flex-1 overflow-hidden">

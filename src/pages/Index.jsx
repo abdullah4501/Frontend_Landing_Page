@@ -24,11 +24,11 @@ const JobCard = ({ promoted = false }) => {
 
             <div className="mt-3 space-y-1">
                 <div className="flex items-center text-xs text-[#585D6E]">
-                    <MapPin className="w-3 h-3 flex-shrink-0 mr-1" />
+                    <MapPin className="w-3 h-3 flex-shrink-0 mr-2" />
                     <span className="truncate">Seattle, USA (Remote)</span>
                 </div>
                 <div className="flex items-center text-xs text-[#585D6E]">
-                    <Clock className="w-3 h-3 flex-shrink-0 mr-1" />
+                    <Clock className="w-3 h-3 flex-shrink-0 mr-2" />
                     <span>1 day ago</span>
                     <span className="mx-1">|</span>
                     <span className="text-[#0154AA]">22 applicants</span>
@@ -60,7 +60,7 @@ const Index = () => {
 
     return (
         <div className="min-h-screen">
-            <div className="max-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div className="max-full mx-auto px-4 sm:px-8 lg:px-12 py-6">
                 <div className="flex flex-col lg:flex-row gap-6">
                     <ProfileCard />
 
