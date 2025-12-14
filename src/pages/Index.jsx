@@ -178,7 +178,7 @@ const Index = () => {
                             {filterTags.map((tag) => (
                                 <span
                                     key={tag}
-                                    className="px-[15px] py-[8px] border border-[#737A91] rounded-[5px] text-[#737A91] line-clamp-1 leading-[1.4]"
+                                    className="px-[15px] py-[8px] border border-[#737A91] rounded-[5px] text-[#737A91] truncate whitespace-nowrap"
                                 >
                                     {tag}
                                 </span>
